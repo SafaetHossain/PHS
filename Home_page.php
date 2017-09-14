@@ -24,26 +24,18 @@
 			</div>
 		</div>
 		<div id = "menubar">
-			<!--<nav class = "navbar navbar-default" id = "topnavbar">
-				<div class = "container-fluid">
-					
-					<div class = "navbar-header" style = "padding-left: 108px;">
-						<a class = "navbar-brand" href = "#"><b><i>PHS</i></b></a>
-					</div>
-					-->
-					<div class = "navbar-collapse collapse">
-						<ul class = "nav navbar-nav">
-							<li><a href="#">Home</a></li>
-							<li><a href = "#">Result</a></li>
-							<li><a href = "#">Management</a></li>
-							<li><a href="#">Academic</a></li>
-							<li><a href = "#">About</a></li>
-							<li><a href = "#">Contact</a></li>
-							<li><a href = "#">Admission</a></li>
-							<li><a href="#">Photo</a></li>
-						</ul>
-					</div>
-			
+			<div class = "navbar-collapse collapse">
+				<ul class = "nav navbar-nav">
+					<li><a href="#">Home</a></li>
+					<li><a href = "#">Result</a></li>
+					<li><a href = "#">Management</a></li>
+					<li><a href="#">Academic</a></li>
+					<li><a href = "#">About</a></li>
+					<li><a href = "#">Contact</a></li>
+					<li><a href = "#">Admission</a></li>
+					<li><a href="#">Photo</a></li>
+				</ul>
+			</div>	
 		</div>
 	</body>
 </html>
