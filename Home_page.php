@@ -15,27 +15,31 @@
 		<div id = "header">
 			<div id="imgs">
 			<span>
-				<img id = "logo" src = "img/logo.png">
+				<img id = "logo" src = "images/logo.png">
 			</span>
 			<span style = "font-size: 26px; color: gray;">
 				<b>Prijkandi High School</b>
-				<b style = "font-size: 18px;">"Mirzapur,Raipura,Narsigndi"</b>
+				<b style = "font-size: 16px;">Mirzapur,Raipura,Narsigndi</b>
 			</span>
 			</div>
 		</div>
 		<div id = "menubar">
 			<div class = "navbar-collapse collapse">
-				<ul class = "nav navbar-nav">
-					<li><a href="#">Home</a></li>
-					<li><a href = "#">Result</a></li>
-					<li><a href = "#">Management</a></li>
-					<li><a href="#">Academic</a></li>
-					<li><a href = "#">About</a></li>
-					<li><a href = "#">Contact</a></li>
-					<li><a href = "#">Admission</a></li>
-					<li><a href="#">Photo</a></li>
+				<ul class = "nav navbar-nav inverse">
+					<li><a href="#Home">Home</a></li>
+					<li><a href = "#Result">Result</a></li>
+					<li><a href="#Academic">Academic</a></li>
+					<li><a href = "#About">Notice</a></li>
+					<li><a href = "#Contact">Contact</a></li>
+					<li><a href = "#Admission">Admission</a></li>
+					<li><a href="#Photo">Photo</a></li>
 				</ul>
-			</div>	
+				<ul class = "nav navbar-nav navbar-right">
+					<li>
+						<a href="Login.php" style="font-size: 18px;"><span class="glyphicon glyphicon-log-in"> Login</span></a>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</body>
 </html>
