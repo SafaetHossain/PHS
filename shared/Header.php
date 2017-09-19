@@ -22,7 +22,7 @@
 				</ul>
 				<ul class = "nav navbar-nav navbar-right">
 					<li>
-						<a href="#" style="font-size: 18px;"><span class="glyphicon glyphicon-log-in"> Login</span></a>
+						<a href="Login.php" style="font-size: 18px;"><span class="glyphicon glyphicon-log-in"> Login</span></a>
 					</li>
 				</ul>
 			</div>

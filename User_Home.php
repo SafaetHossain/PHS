@@ -1,5 +1,8 @@
 <!DOCTYPE HTML>
 <html>
+	<?php
+		session_start();
+	?>
 	<head>
 		<title>Prijkandi High School,Mirzapur,Raipura,Narsigndi</title>
 		<meta charset="utf-8">
@@ -12,8 +15,10 @@
 	  	<link rel="stylesheet" type="text/css" href="css/Home_style.css">
 	</head>
 	<body>
-		<?php
-			include("shared/header.php");
-		?>
+		<h1>
+			<?php
+				echo $_SESSION["Username"];
+			?>
+		</h1>
 	</body>
 </html>

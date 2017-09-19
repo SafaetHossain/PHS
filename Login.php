@@ -10,11 +10,11 @@
 	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	  	<link rel="stylesheet" type="text/css" href="css/Home_style.css">
-	  	<link rel="stylesheet" type="text/css" href="css/Login_style.css">
 	</head>
 	<body>
 		<?php
 			include("shared/header.php");
+			include("LoginAction.php");
 		?>
 
 		<div class="container">
@@ -26,7 +26,7 @@
 	                        <h3 class="panel-title">Please Sign In</h3>
 	                    </div>
 	                    <div class="panel-body">
-	                        <form role="form" action = "ActionLogin.php" method = "Post">
+	                        <form role="form" action = "" method = "Post">
 	                             
 	                            <div class="form-group">
 	                            	<div class="input-group">
@@ -38,6 +38,11 @@
 	                            	<div class="input-group">
 			      						<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
 	                                	<input class="form-control" placeholder="Enter Password..." name="password" type="password" required>
+	                                </div>
+	                                <div style="padding-left: 30px;	color: red;">
+	                                	<label>
+	                                		<?php echo $loginfailed; ?>
+	                                	</label>
 	                                </div>
 	                            </div>
 	                            <div class="checkbox">
