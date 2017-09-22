@@ -2,6 +2,7 @@
 <html>
 	<?php
 		session_start();
+		If($_SESSION["Username"] != null){
 	?>
 	<head>
 		<title>Prijkandi High School,Mirzapur,Raipura,Narsigndi</title>
@@ -15,10 +16,54 @@
 	  	<link rel="stylesheet" type="text/css" href="css/Home_style.css">
 	</head>
 	<body>
-		<h1>
-			<?php
-				echo $_SESSION["Username"];
-			?>
-		</h1>
+		<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">Prijkandi High School</a>
+	    </div>
+	    <ul class="nav navbar-nav">
+	      <li class="active"><a href="#">Home</a></li>
+	      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Student<span class="caret"></span></a>
+	        <ul class="dropdown-menu">
+	          <li><a href="#">Add</a></li>
+	          <li><a href="#">Show</a></li>
+	        </ul>
+	      </li>
+	      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Teacher<span class="caret"></span></a>
+	        <ul class="dropdown-menu">
+	          <li><a href="#">Add</a></li>
+	          <li><a href="#">Show</a></li>
+	        </ul>
+	      </li>
+	      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Staff<span class="caret"></span></a>
+	        <ul class="dropdown-menu">
+	          <li><a href="#">Add</a></li>
+	          <li><a href="#">Show</a></li>
+	        </ul>
+	      </li>
+	      <li><a href="#">Result</a></li>
+	      <li><a href="#">Notice</a></li>
+	    </ul>
+	    <ul class="nav navbar-nav navbar-right">
+	      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo $_SESSION["Username"]; ?><span class="caret"></span></a>
+	        <ul class="dropdown-menu">
+	          <li><a href="#">Profile</a></li>
+	          <li><a href="#">Change Password</a></li>
+	        </ul>
+	      </li>
+	      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Log out</a></li>
+	    </ul>
+	  </div>
+	</nav>
 	</body>
+	<?php 
+		}else{
+			header("Location: Login.php");
+		}
+	?>
+	<script>
+$(document).ready(function(){
+    $(".dropdown-toggle").dropdown();
+});
+</script>
 </html>
