@@ -17,48 +17,48 @@
 	  	<link rel="stylesheet" type="text/css" href="css/Home_style.css">
 	</head>
 	<body>
-		<nav class="navbar navbar-inverse">
+		<nav class="rounded-0" class="navbar navbar-light"style="background-color: #343A40;">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
-		      <a class="navbar-brand" href="User_Home.php">Prijkandi High School</a>
+		      	<a class="navbar-brand" href="User_Home.php">Prijkandi High School</a>
 		    </div>
 		    <ul class="nav navbar-nav">
-		      <li><a href="User_Home.php">Home</a></li>
-		      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Student<span class="caret"></span></a>
-		        <ul class="dropdown-menu">
-		          <li><a href="Student_add.php">Add</a></li>
-		          <li><a href="#">Show</a></li>
-		        </ul>
-		      </li>
-		      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Teacher<span class="caret"></span></a>
-		        <ul class="dropdown-menu">
-		          <li><a href="#">Add</a></li>
-		          <li><a href="#">Show</a></li>
-		        </ul>
-		      </li>
-		      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Result<span class="caret"></span></a>
-		        <ul class="dropdown-menu">
-		          <li><a href="#">Add</a></li>
-		          <li><a href="#">Show</a></li>
-		        </ul>
-		      </li>
-		      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Staff<span class="caret"></span></a>
-		        <ul class="dropdown-menu">
-		          <li><a href="#">Add</a></li>
-		          <li><a href="#">Show</a></li>
-		        </ul>
-		      </li>
-		      <li><a href="#">Result</a></li>
-		      <li><a href="#">Notice</a></li>
+		      	<li><a href="User_Home.php">Home</a></li>
+		      	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Student<span class="caret"></span></a>
+			        <ul class="dropdown-menu">
+			          <li><a href="Student_add.php">Add</a></li>
+			          <li><a href="#">Show</a></li>
+			        </ul>
+		      	</li>
+		      	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Teacher<span class="caret"></span></a>
+			        <ul class="dropdown-menu">
+			          <li><a href="Teacher_add.php">Add</a></li>
+			          <li><a href="#">Show</a></li>
+			        </ul>
+		      	</li>
+		      	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Staff<span class="caret"></span></a>
+			        <ul class="dropdown-menu">
+			          <li><a href="Staff_add.php">Add</a></li>
+			          <li><a href="#">Show</a></li>
+			        </ul>
+		      	</li>
+			    <li><a href="#">Result</a></li>
+			    <li><a href="#">Notice</a></li>
+			    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Photo<span class="caret"></span></a>
+			    	<ul class="dropdown-menu">
+			    		<li><a href="#">Add</a></li>
+			          <li><a href="#">Show</a></li>
+			    	</ul>
+		      	</li>
 		    </ul>
 		    <ul class="nav navbar-nav navbar-right">
-		      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo $_SESSION["Username"]; ?><span class="caret"></span></a>
-		        <ul class="dropdown-menu">
-		          <li><a href="#">Profile</a></li>
-		          <li><a href="#">Change Password</a></li>
-		        </ul>
-		      </li>
-		      <li><a href="Logout.php"><span class="glyphicon glyphicon-log-in"></span> Log out</a></li>
+		      	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo $_SESSION["Username"]; ?><span class="caret"></span></a>
+		        	<ul class="dropdown-menu">
+		          	<li><a href="#">Profile</a></li>
+		          	<li><a href="#">Change Password</a></li>
+		        	</ul>
+		      	</li>
+		      	<li><a href="Logout.php"><span class="glyphicon glyphicon-log-in"></span> Log out</a></li>
 		    </ul>
 		  </div>
 		</nav>
