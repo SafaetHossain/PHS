@@ -12,12 +12,13 @@
 	  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	  	<link rel="stylesheet" href="assets/css/style.css">
-	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	  	<link rel="stylesheet" type="text/css" href="css/Home_style.css">
+	  	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	</head>
 	<body>
-		<nav class="rounded-0" class="navbar navbar-light"style="background-color: #343A40;">
+		<nav class="rounded-0" class="navbar navbar-light" style="background-color: #F1F1F1;">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
 		      	<a class="navbar-brand" href="User_Home.php">Prijkandi High School</a>
@@ -43,7 +44,7 @@
 			        </ul>
 		      	</li>
 			    <li><a href="#">Result</a></li>
-			    <li><a href="#">Notice</a></li>
+			    <li><a href="Notice_add.php">Notice</a></li>
 			    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Photo<span class="caret"></span></a>
 			    	<ul class="dropdown-menu">
 			    		<li><a href="#">Add</a></li>
