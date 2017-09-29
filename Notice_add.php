@@ -42,11 +42,13 @@
 		        	</form>
 				</div>
 				<div id="show" class="tab-pane fade" style="padding-top: 20px;">
+					<span>Search for a Title in the input field:</span>
+					<input oninput="w3.filterHTML('#titleFilter', '.item', this.value)" placeholder="Search for Title...">
 					<div class="container">
 						    <div class="panel panel-info">
 						      	<div class="panel-heading">All Notice</div>
 						      	<div class="panel-body">
-						      		<table class="table table-bordered">
+						      		<table class="table table-bordered"  id="titleFilter">
 									    <thead>
 									      <tr>
 									      	<th>Title</th>
@@ -56,7 +58,7 @@
 									      </tr>
 									    </thead>
 									    <tbody>
-									      <tr>
+									      <tr class="item">
 									        <td>abc</td>
 									        <td>def</td>
 									        <td></td>
@@ -64,7 +66,7 @@
 									        	<input type="button" name="view" value="View" class="btn btn-success">
 									        </td>
 									      </tr>
-									      <tr>
+									      <tr class="item">
 									        <td>asdd</td>
 									        <td>adgdgd</td>
 									        <td></td>
@@ -72,7 +74,7 @@
 									        	<input type="button" name="view" value="View" class="btn btn-success">
 									        </td>
 									      </tr>
-									      <tr>
+									      <tr class="item">
 									        <td>a</td>
 									        <td>b</td>
 									        <td></td>

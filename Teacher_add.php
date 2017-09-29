@@ -70,6 +70,13 @@
 	                              		</div>
 	                              	</div>
 	                              	<div class="form-group">
+	                              		<label class="control-label col-sm-2" for="position">Salary</label>
+	                              		<div class="col-sm-10">
+	                              			<input type="text" class="form-control" name="teacherSalary" id="position" placeholder="Enter Salary" required>
+	                              			<span id = "salaryError" style="color: red"></span><!--Salary Error Show-->
+	                              		</div>
+	                              	</div>
+	                              	<div class="form-group">
 	                              		<label class="control-label col-sm-2" for="image">Image</label>
 	                              		<div class="col-sm-10">
 	                              			<input type="file" class="form-control-file" name="teacherImage" id="image" required><span id="imageError" style="color: red"></span><!-- Image Error Show -->
