@@ -29,19 +29,19 @@
 		      	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Student<span class="caret"></span></a>
 			        <ul class="dropdown-menu">
 			          <li><a href="Student_add.php">Add</a></li>
-			          <li><a href="#">Show</a></li>
+			          <li><a href="Student_show.php">Show</a></li>
 			        </ul>
 		      	</li>
 		      	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Teacher<span class="caret"></span></a>
 			        <ul class="dropdown-menu">
 			          <li><a href="Teacher_add.php">Add</a></li>
-			          <li><a href="#">Show</a></li>
+			          <li><a href="Teacher_show.php">Show</a></li>
 			        </ul>
 		      	</li>
 		      	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Staff<span class="caret"></span></a>
 			        <ul class="dropdown-menu">
 			          <li><a href="Staff_add.php">Add</a></li>
-			          <li><a href="#">Show</a></li>
+			          <li><a href="Staff_show.php">Show</a></li>
 			        </ul>
 		      	</li>
 			    <li><a href="Result_add.php">Result</a></li>
