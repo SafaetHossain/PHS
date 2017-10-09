@@ -9,36 +9,30 @@
 				<table class="table table-bordered"  id="titleFilter">
 						<thead>
 							<tr>
-								<th>Title</th>
-								<th>Details</th>
-								<th>Image</th>
-								<th></th>
+								<th>Name</th>
+								<th>Contact</th>
+								<th>Address</th>
+								<th>Position</th>
 								</tr>
 						</thead>
 						<tbody>
 							<tr class="item">
 								<td>abc</td>
 								<td>def</td>
-								<td></td>
-								<td>
-								    <input type="button" name="view" value="View" class="btn btn-success">
-								</td>
+								<td>dfsdf</td>
+								<td>sdfs</td>
 							</tr>
 							<tr class="item">
 								<td>asdd</td>
 								<td>adgdgd</td>
-								<td></td>
-								<td>
-								    <input type="button" name="view" value="View" class="btn btn-success">
-								</td>
+								<td>sdfsd</td>
+								<td>sdfsdf</td>
 							</tr>
 							<tr class="item">
 								<td>a</td>
 								<td>b</td>
-								<td></td>
-								<td>
-								    <input type="button" name="view" value="View" class="btn btn-success">
-								</td>
+								<td>sdfsd</td>
+								<td>sdfsd</td>
 							</tr>
 						</tbody>
 					</table>
