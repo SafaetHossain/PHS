@@ -1,5 +1,6 @@
 	<?php 
 		include("shared/User_Header.php");
+		include("student_action.php");
 	?>
 
 		<div class="container" style="padding-top: 30px;">
